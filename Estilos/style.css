@@ -823,4 +823,23 @@ button:hover {
     background-color: var(--background-color);
 }
 
-/*Elementos bascios*/
+/*Alquilar de cancha*/
+
+.contenedor-canchas{
+    display: flex;
+    align-items: center;
+}
+
+.img-content{
+    flex: 1;
+    padding: 20px;
+}
+
+.img-content img{
+    max-width: 100%;
+}
+
+.text-canchas{
+    flex: 1; 
+    padding: 20rem;
+}
