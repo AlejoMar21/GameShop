@@ -37,8 +37,6 @@ html{
     background-color:var(--background-color) ;
 }
 
-
-
 .hero{
     display: flex;
     justify-content: space-between;
@@ -609,7 +607,6 @@ html{
     font-weight: 600;
     font-size: 1.6rem;
     text-transform: uppercase;
-
 }
 
 .contact-info,
@@ -828,6 +825,7 @@ button:hover {
 .contenedor-canchas{
     display: flex;
     align-items: center;
+    background-color: var(--card-color);
 }
 
 .img-content{
@@ -842,4 +840,115 @@ button:hover {
 .text-canchas{
     flex: 1; 
     padding: 20rem;
+
+}
+.Titulo{
+    font-size: 4rem;
+}
+
+.Parrafo{
+    font-size: 2rem;
+}
+
+.button-more{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-more a{
+    color: #fff; 
+    text-decoration: none; 
+}
+
+/*Contactanos*/
+.contact-infos {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color); /* Cambia el fondo según tus preferencias */
+    border-radius: 10px;
+}
+
+.title-footers {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+.social-icon{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.social-icon span {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px; /* Añade espacio entre los iconos */
+}
+.social-icon span i {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #000000;
+}
+
+.instagram{
+    background: linear-gradient(
+        #405de6,
+        #833ab4,
+        #c13584,
+        #fd1d1d,
+        #f56040,
+        #fcaf45
+    );
+}
+
+.contact-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact-info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-info ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
 }
